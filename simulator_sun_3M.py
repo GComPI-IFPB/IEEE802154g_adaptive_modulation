@@ -119,7 +119,7 @@ try:
             for i in range(1,4):
                 if(i == inst_mod):
                     continue
-                prob_mod[k] = ((1+lqe_mod[i-1])**w_prob)/(sum_p)
+                prob_ret[k] = ((1+lqe_mod[i-1])**w_prob)/(sum_p)
                 k+=1
                 
             
